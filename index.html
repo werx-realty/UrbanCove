@@ -75,7 +75,7 @@
     .nav-logo svg { width: 80px; height: 80px; }
     .nav-links { display: flex; align-items: center; gap: 38px; list-style: none; }
     .nav-links a {
-      font-size: 10.5px; font-weight: 600; letter-spacing: .2em;
+      font-size: 13px; font-weight: 700; letter-spacing: .2em;
       text-transform: uppercase; color: rgba(255,255,255,.75);
       position: relative; transition: color .3s;
     }
@@ -712,11 +712,12 @@
     .c-input:focus { border-color: var(--gold); }
     .c-input::placeholder { color: rgba(255,255,255,.28); }
     .c-submit {
-      width: 100%; border: none; cursor: pointer;
-      font-family: var(--sans); font-size: 10px;
-      font-weight: 700; letter-spacing: .22em;
+      width: fit-content; border: none; cursor: pointer;
+      font-family: var(--sans); font-size: 14px;
+      font-weight: 700; letter-spacing: .18em;
       text-transform: uppercase; color: var(--black);
-      background: var(--gold); padding: 17px;
+      background: var(--gold); padding: 14px 48px;
+      display: block; margin: 0 auto;
       position: relative; overflow: hidden; transition: color .35s;
     }
     .c-submit::before {
@@ -858,12 +859,14 @@
   </a>
 
   <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
     <li><a href="#listings">Properties</a></li>
     <li><a href="#neighborhoods">Neighborhoods</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#team">Our Team</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="rentals.html">Property Management</a></li>
   </ul>
 
   <a href="#contact" class="nav-btn">List With Us</a>
@@ -1258,7 +1261,7 @@
     <p class="about-p fade-right">
       From the rolling hills of Tehachapi to the master-planned communities of Seven Oaks and Stockdale, we have closed hundreds of transactions and helped families find their perfect home across all of Kern County.
     </p>
-    <a href="#team" class="btn-gold fade-right" style="display:inline-block; margin-top: 20px;"><span>Meet Our Team</span></a>
+    <a href="#team" class="btn-gold fade-right" style="display:inline-block; margin-top: 20px; padding: 14px 11px; font-size: 14px; letter-spacing: .18em;"><span>Meet Our Team</span></a>
   </div>
 </section>
 
@@ -1347,12 +1350,12 @@
       <div class="team-card-inner">
         <div class="team-front">
           <div class="team-photo">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&q=85" loading="lazy" alt="James Caldwell">
+            <img src="Brian Realtor Portrait.png" loading="lazy" alt="Brian Gonzalez">
             <div class="team-shade"></div>
           </div>
           <div class="team-info">
-            <div class="team-name">James Caldwell</div>
-            <div class="team-role">Founder &amp; Principal Broker</div>
+            <div class="team-name">Brian Gonzalez</div>
+            <div class="team-role">Broker / Owner</div>
           </div>
         </div>
         <div class="team-back">
@@ -1376,8 +1379,8 @@
             <rect fill="#64c7cc" x="64.91" y="49.6" width="4.43" height="5.18"/>
           </svg>
           <div class="team-back-divider"></div>
-          <div class="team-back-name">James Caldwell</div>
-          <div class="team-back-role">Founder &amp; Principal Broker</div>
+          <div class="team-back-name">Brian Gonzalez</div>
+          <div class="team-back-role">Broker / Owner</div>
           <div class="team-back-tagline">Serving Kern County with passion and precision since 2009.</div>
         </div>
       </div>
@@ -1387,11 +1390,11 @@
       <div class="team-card-inner">
         <div class="team-front">
           <div class="team-photo">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=85" loading="lazy" alt="Diana Rivera">
+            <img src="Daniel Realtor Portrait.png" loading="lazy" alt="Daniel">
             <div class="team-shade"></div>
           </div>
           <div class="team-info">
-            <div class="team-name">Diana Rivera</div>
+            <div class="team-name">Daniel</div>
             <div class="team-role">Luxury Listings Director</div>
           </div>
         </div>
@@ -1416,7 +1419,7 @@
             <rect fill="#64c7cc" x="64.91" y="49.6" width="4.43" height="5.18"/>
           </svg>
           <div class="team-back-divider"></div>
-          <div class="team-back-name">Diana Rivera</div>
+          <div class="team-back-name">Daniel</div>
           <div class="team-back-role">Luxury Listings Director</div>
           <div class="team-back-tagline">Specializing in Seven Oaks and Stockdale luxury estates.</div>
         </div>
@@ -1427,11 +1430,11 @@
       <div class="team-card-inner">
         <div class="team-front">
           <div class="team-photo">
-            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&q=85" loading="lazy" alt="Marcus Lee">
+            <img src="James Realtor Portrait.png" loading="lazy" alt="James">
             <div class="team-shade"></div>
           </div>
           <div class="team-info">
-            <div class="team-name">Marcus Lee</div>
+            <div class="team-name">James</div>
             <div class="team-role">Senior Sales Associate</div>
           </div>
         </div>
@@ -1456,7 +1459,7 @@
             <rect fill="#64c7cc" x="64.91" y="49.6" width="4.43" height="5.18"/>
           </svg>
           <div class="team-back-divider"></div>
-          <div class="team-back-name">Marcus Lee</div>
+          <div class="team-back-name">James</div>
           <div class="team-back-role">Senior Sales Associate</div>
           <div class="team-back-tagline">Northwest Bakersfield expert with 200+ closings.</div>
         </div>
@@ -1467,11 +1470,11 @@
       <div class="team-card-inner">
         <div class="team-front">
           <div class="team-photo">
-            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=85" loading="lazy" alt="Sophia Park">
+            <img src="Neil Realtor Portrait.png" loading="lazy" alt="Neil">
             <div class="team-shade"></div>
           </div>
           <div class="team-info">
-            <div class="team-name">Sophia Park</div>
+            <div class="team-name">Neil</div>
             <div class="team-role">Buyer's Specialist</div>
           </div>
         </div>
@@ -1496,7 +1499,7 @@
             <rect fill="#64c7cc" x="64.91" y="49.6" width="4.43" height="5.18"/>
           </svg>
           <div class="team-back-divider"></div>
-          <div class="team-back-name">Sophia Park</div>
+          <div class="team-back-name">Neil</div>
           <div class="team-back-role">Buyer's Specialist</div>
           <div class="team-back-tagline">Helping families find their perfect Kern County home.</div>
         </div>
@@ -1507,11 +1510,11 @@
       <div class="team-card-inner">
         <div class="team-front">
           <div class="team-photo">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&q=85" loading="lazy" alt="Ryan Torres">
+            <img src="Trey Realtor Portrait.png" loading="lazy" alt="Trey">
             <div class="team-shade"></div>
           </div>
           <div class="team-info">
-            <div class="team-name">Ryan Torres</div>
+            <div class="team-name">Trey</div>
             <div class="team-role">Investment Specialist</div>
           </div>
         </div>
@@ -1536,7 +1539,7 @@
             <rect fill="#64c7cc" x="64.91" y="49.6" width="4.43" height="5.18"/>
           </svg>
           <div class="team-back-divider"></div>
-          <div class="team-back-name">Ryan Torres</div>
+          <div class="team-back-name">Trey</div>
           <div class="team-back-role">Investment Specialist</div>
           <div class="team-back-tagline">Maximizing returns across Kern County's growing market.</div>
         </div>
